@@ -1,0 +1,1 @@
+{"id":"d7baae15-5ec5-4dd0-bc25-50296d764259","space":25991,"runtime":"python3.9","name":"higherlowerapi","path":"y52369","project":"b0myu5te","account":"144798365827","region":"us-east-1","deps":["fastapi","pandas","google-api-python-client"],"envs":null,"public":true,"log_level":"debug","cron":""}

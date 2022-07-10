@@ -1,0 +1,3 @@
+fastapi
+pandas
+google-api-python-client

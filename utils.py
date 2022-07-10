@@ -1,11 +1,14 @@
 from time import sleep
 import pandas as pd
 from googleapiclient.discovery import build
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
-
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 def RandomYoutubeVideos():
-    api_key = 'AIzaSyArVOc9O8i4CekkyyvyhEmIrh5PU3uC6PA'
+    api_key = YOUTUBE_API_KEY
     ids = []
     viewCounts = []
 
