@@ -2,3 +2,4 @@ fastapi
 pandas
 google-api-python-client
 python-dotenv
+uvicorn[standard]
