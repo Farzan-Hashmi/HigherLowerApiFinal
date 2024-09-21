@@ -22,6 +22,7 @@ oldtime = time.time()
 async def root():
     global oldtime
     global top_videos
+    print("Alive")
     if time.time() - oldtime > 5400:
         top_videos = RandomYoutubeVideos()
         oldtime = time.time()
