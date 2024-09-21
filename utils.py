@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-YOUTUBE_API_KEY = "AIzaSyArVOc9O8i4CekkyyvyhEmIrh5PU3uC6PA"
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 
 def RandomYoutubeVideos():
